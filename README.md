@@ -19,13 +19,13 @@ The goal was to clean and transform this data into one clean dataset and load it
 ---
 Initially, the Wikipedia data loaded into a DataFrame with 190+ columns. The below function handled the bulk of our cleaning needed to be done after removing any lines in the DataFrame that were not movies. in the end we were able to trim this Wikipedia data down to a manageable 21 columns.
 
-![cleaning](./resources/clean.png)
+![cleaning](./resources/clean.PNG)
 
 ### Merging the Data
 ---
 After also cleaning the MovieLens similar to the Wikipedia data, I merged the two DataFrames and noticed that there were several columns with overlapping information. Deep-diving into each column, a decision was made and documented in the image below on which columns to use.
 
-![merge](./resources/merge.png)
+![merge](./resources/merge.PNG)
 
 ### Loading the Data
 ---
@@ -33,7 +33,7 @@ Finally, I loaded the DataFrames into an SQL Database. The below images are samp
 
 ![movies](./resources/movies_query.PNG)
 
-![ratings](./resources/ratings_query.PNG)
+![ratings](./resources/ratings_query.PNg)
 
 
 ### Summary
